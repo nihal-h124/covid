@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+
+.fill-window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-image: url("https://free4kwallpapers.com/uploads/originals/2016/12/23/skyscrapers-in-night-city-wallpaper.jpg");
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.app_dropdown {
+  background-color: black;
+  font-weight: bold;
+}
+
+.app_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  color: snow;
+}
+
+.app_header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+
+.app_stats {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+.app_left {
+  flex: 0.8;
+  font-weight: bold;
+}
+
+.app_right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app_graph {
+  flex-grow: 3;
+  background-color:black ;
+}
+
+.app_graphTitle {
+  margin-top: 30px;
+}
+
+.app_right .MuiCardContent-root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color:black;
+  color: darkgrey;
+}
+
+.MuiInputBase-input {
+	font: inherit;
+	color: darkgrey !important;
+}
